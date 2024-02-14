@@ -7,3 +7,12 @@
 .bg-images{
     background-image: url('../images/background.png');
 }
+.btn2{
+    background-color: white;
+    border-radius: 12px;
+   height: 4rem;
+   width: 15rem;
+}
+.btn2:hover{
+    background-color: antiquewhite;
+}
