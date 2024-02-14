@@ -4,3 +4,6 @@
 .font-Anton{
     font-family: "Anton", sans-serif;
 }
+.bg-images{
+    background-image: url('../images/background.png');
+}
