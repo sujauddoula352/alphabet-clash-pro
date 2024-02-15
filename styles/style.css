@@ -16,3 +16,9 @@
 .btn2:hover{
     background-color: antiquewhite;
 }
+.play-bg{
+box-sizing: border-box;
+border: 0.5px solid rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+background: linear-gradient(136.67deg, rgba(255, 255, 255, 0.56) 0%,rgba(152, 151, 151, 0) 102.037%);
+}
