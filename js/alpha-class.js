@@ -15,6 +15,26 @@ function continueGame(){
 
     setBackgroundColorId(alphabet);
 }
+function handleKeyUpEven(even){
+    const playerPress = even.key
+    console.log('player press',playerPress);
+    const currentAlphabetElement = document.getElementById('current-Alphabet');
+    const currentAlphabet = currentAlphabetElement.innerText;
+    const expectedAlphabet = currentAlphabet.toLocaleLowerCase();
+    console.log(playerPress,expectedAlphabet );
+
+    if( playerPress === expectedAlphabet ){
+        console.log('your are get point');
+        removedBackgroundColorId(expectedAlphabet);
+        continueGame()
+    }
+    
+    else{
+        console.log('You miss .you lost life')
+    }
+    
+}
+document.addEventListener('keyup',handleKeyUpEven)
 
 
 function play(){
